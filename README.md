@@ -1,7 +1,7 @@
 # File to Database Table Conversion Tool
 A GUI tool that reads a file and converts the file into a database table.
 
-This tool emphasises on flexibility, allowing you to connect to any database by specifying the needed credentials.
+This tool emphasises flexibility, allowing you to connect to any database by specifying the needed credentials.
 
 Blog post of what I learnt from making it: [Making a CSV to Database Tool](https://woojiahao.github.io/blog/2018-07-15/making-a-csv-to-database-tool)
 
@@ -44,9 +44,9 @@ python launch.py
 8. Select a supported file (See [Supported File Types](https://github.com/woojiahao/file-to-db-tool#supported-file-types)) and convert.
 
 ### Editing credentials:
-Sometimes, you might want to change the default credentials that get loaded in when you change the SQL dialect, the tool now supports the reading of a `config.json` file that holds all of the credentials.
+Sometimes, you might want to change the default credentials that get loaded when you change the SQL dialect, the tool now supports the reading of a `config.json` file that holds all of the credentials.
 
-To edit the credentials, navigate into `config` folder and edit the `config.json` file to suit the credentials that you want.
+To edit the credentials, navigate into the `config` folder and edit the `config.json` file to suit the credentials that you want.
 
 ## Available SQL dialects:
 1. PostgreSQL
